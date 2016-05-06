@@ -1,0 +1,41 @@
+.d1{
+    box-sizing: border-box;
+    width: auto;
+    height: 38px;
+    background-color: darkviolet;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkviolet;
+    margin-left: 100px;
+    width: 900px;
+    vertical-align: middle;
+    height: 100%;
+}
+li {
+    float: left;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    color: darkslategray;
+    background-color: papayawhip;
+}
+
+.active {
+    color: green;
+    background-color: gree;
+}

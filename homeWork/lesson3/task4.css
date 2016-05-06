@@ -1,0 +1,9 @@
+
+
+a[href*= "ya"]{
+    color: #f70;
+}
+
+a[href*="google"]{
+    color: #666;
+}

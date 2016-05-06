@@ -1,0 +1,40 @@
+
+.d1{
+    box-sizing: border-box;
+    width: auto;
+    height: 38px;
+    background-color: darkviolet;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkviolet;
+    margin-left: 100px;
+    width: 900px;
+    vertical-align: middle;
+    height: 100%;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+li a:hover:not(.active) {
+    color: darkslategray;
+    background-color: papayawhip;
+}
+
+li a.active {
+    color: darkslategray;
+    background-color: papayawhip;
+}
