@@ -25,6 +25,7 @@ body {
     color: darkblue;
     text-align: center;
     background-image: url("http://getbg.net/upload/full/www.GetBg.net_Backgrounds_Black_cubic_background_094966_.jpg");
+    background-repeat:inherit;
 
 }
 
