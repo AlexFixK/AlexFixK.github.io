@@ -2,6 +2,8 @@
 
 body {
     counter-reset: sum;
+    min-width: 700px;
+    white-space: nowrap;
 }
 
 #a:checked { counter-increment: sum 10; }
@@ -22,7 +24,7 @@ body {
     font: 700 32px/1 'Droid Sans', sans-serif;
     color: darkblue;
     text-align: center;
-    background-image: url("http://www.artleo.com/images/201108/artleo.com_8070.jpg");
+    background-image: url("https://ru.yeed.me/system/pictures/images/000/042/722/original/obolon_district_kiev.jpg?1417986422");
 
 }
 
@@ -79,5 +81,5 @@ span {
 }
 
 #a:checked ~ #b:checked ~ #c:not(:checked) ~ #d:checked ~ #e:not(:checked) ~ #f:checked ~ .sum::after {
-    content: ' (УРААААААА!!! ТЕПЕРЬ САДИСЬ ПИСАТЬ)';
+    content: ' (УРААААААА!!!)';
 }
