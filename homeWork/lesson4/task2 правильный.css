@@ -20,6 +20,14 @@ ul li {
     display: inline-block;
     padding: 5px 10px;
 }
+li:last-child {
+    float: right;
+
+}
+
+li:not(:last-child) {
+    float: left;
+}
 /*style for hover effect*/
 li:hover {
     color: #666666;

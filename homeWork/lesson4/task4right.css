@@ -1,0 +1,25 @@
+ul li {
+    display: inline-block;
+    float: left;
+    margin: 5px 2px;
+}
+ul li a{
+    padding: 5px 10px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #8a2be2;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+ul li a:hover {
+     background-color: #9f5bff;
+     color: white;
+     border-color: #9203ff;
+ }
+ul li[class="word-button"] a, ul li.word-button.ellipsis a {
+    border-style: none;
+}
+.ellipsis a {
+    vertical-align: sub;
+}

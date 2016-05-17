@@ -1,9 +1,8 @@
 .bg {
+    display: inline-block;
     border-style: solid;
     border-width: 4px;
     border-color: rgb(238, 129, 41);
-    left: 159px;
-    top: 45px;
     width: 280px;
     height: 500px;
     box-shadow: 0 2px 4px black, 0 2px 4px black;
