@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: beige;
+    background: url("grass_texture241.jpg") transparent;
 }
 .header {
     width: 1020px;
@@ -29,9 +29,10 @@ body .header .menu {
     font-family: 'Righteous', cursive;
 }
 .menu__list{
-    background-color: black;
+    background: url("grass_texture241.jpg");
     opacity: 50;
     box-shadow: 0 2px 4px white, 0 2px 4px white;
+    overflow: inherit;
 }
 .header .menu {
     font-size: 13px;
