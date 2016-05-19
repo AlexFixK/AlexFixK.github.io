@@ -1,8 +1,7 @@
 
 
--.intro {
-    background: url("bgack.jpg");
-    opacity: 90;
+.intro{
+    background-color: white;
     background-size: cover ;
     overflow: scroll;
     text-align: center;
@@ -10,8 +9,10 @@
     height: 700px;
     position: relative;
     margin: 0 auto;
+    background-image:url("back.jpg");
 }
--span{
+
+span{
     font-size: 36px;
     font-style: normal;
     font-family: 'Futura', 'Open Sans', sans-serif;
@@ -19,6 +20,7 @@
     line-height: 49px;
     font-weight: bold;
 }
--p{
+p{
     font-family: 'Futura', 'Open Sans', sans-serif;
+    display: block;
 }

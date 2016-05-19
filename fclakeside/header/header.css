@@ -1,7 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    background: url("grass_texture241.jpg") transparent;
+    background: url("grass_texture241.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .header {
     width: 1020px;
@@ -29,7 +31,7 @@ body .header .menu {
     font-family: 'Righteous', cursive;
 }
 .menu__list{
-    background: url("grass_texture241.jpg");
+    background-color: black;
     opacity: 50;
     box-shadow: 0 2px 4px white, 0 2px 4px white;
     overflow: inherit;
@@ -64,7 +66,7 @@ body .header .menu {
     color: darkblue;
 }
 .menu li a:hover {
-    color: white;
-    background-color: inherit;
-    font-size: larger;
+    color: black;
+    background-color: white;
+
 }
