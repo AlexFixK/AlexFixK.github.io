@@ -97,3 +97,12 @@ body {
     width: 360px;
     height: 260px;
 }
+
+.photos div:hover {
+    border-radius: 2px;
+    background-color: rgb(37, 166, 247);
+    opacity: 0.202;
+    width: 360px;
+    height: 260px;
+    position: absolute;
+}
