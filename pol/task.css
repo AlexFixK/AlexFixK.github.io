@@ -9,6 +9,7 @@ h1 {
     color: seashell;
     font-family: 'Indie Flower', sans-serif;
     text-align: center;
+    width: auto;
 }
 h3 {
     font-size: 15px;
@@ -39,7 +40,7 @@ div.image {          /* РЕЗИНОВЫЙ МАКЕТ! */
     top:0;
     left: 0;
     opacity: 0;
-    transition: opacity 0.6s ease-out;
+    transition: opacity 0.9s ease-out;
     color: black;
     font-weight: bold;
     font-size: 55px;
@@ -49,10 +50,12 @@ div.image {          /* РЕЗИНОВЫЙ МАКЕТ! */
     top:0;
     left: 0;
     background-color: black;
-    border-radius: inherit;
+    -border-radius: inherit;
     color: white;
     font-weight: bold;
     font-size: 55px;
+    border: 1px solid snow;
+    border-radius: .3rem;
 }
 -button {
     border: 1px solid #fff;
