@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery{
+    background-color: rgb(246, 249, 249);
+    height: 900px;
+    position: relative;
+    width: 100%;
+    background-size: cover ;
+}
+.wallpaper{
+    width: auto;
+    height: auto;
+
+}
+
+.content {
+    position: relative;
+    font-family: "Lato";
+    text-align: center;
+}
+
+.content1{
+    font-size: 41px;
+    color: rgb(45, 57, 80);
+    line-height: 1.2;
+    position: absolute;
+    top: 50.521px;
+    width: 100%;
+}
+.content2{
+    font-size: 15px;
+    color: rgb(144, 144, 144);
+    line-height: 1.533;
+    position: absolute;
+    top: 135.386px;
+    width: 100%;
+}
+.photos{
+    position: absolute;
+
+}
+.photo1{
+    border-radius: 2px;
+    position: absolute;
+    left: 112px;
+    top: 212px;
+    width: 360px;
+    height: 260px;
+    background-image: url("Image 01.png")
+
+}
+.photo2{
+    border-radius: 2px;
+    position: absolute;
+    left: 502px;
+    top: 212px;
+    width: 360px;
+    height: 260px;
+    background-image: url("Image 02.png");
+}
+.photo3{
+    background-image: url("Image 03.png");
+    border-radius: 2px;
+    position: absolute;
+    left: 892px;
+    top: 212px;
+    width: 360px;
+    height: 260px;
+}
+.photo4{
+    border-radius: 2px;
+    position: absolute;
+    left: 112px;
+    top: 502px;
+    width: 360px;
+    height: 260px;
+    background-image: url("Image 04.png");
+}
+.photo5{
+    background-image: url("Image 05.png");
+    border-radius: 2px;
+    position: absolute;
+    left: 502px;
+    top: 502px;
+    width: 360px;
+    height: 260px;
+}
+.photo6{
+    background-image: url("Image 06.png");
+    border-radius: 2px;
+    position: absolute;
+    left: 892px;
+    top: 502px;
+    width: 360px;
+    height: 260px;
+}
