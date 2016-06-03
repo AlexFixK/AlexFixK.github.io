@@ -16,7 +16,7 @@ body a{
 }
 .header {
 	background: url(../image/Back.png)no-repeat center top;
-	background-size: 100% 100%;
+	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -148,6 +148,7 @@ ul.simple-toggle li a:hover { color: whitesmoke;}
 	text-align:center;
     min-height: 620px;
     max-height: 620px;
+    position: relative;
 }
 .about_right img{
 	display:inline-block;
@@ -608,7 +609,7 @@ ul.popup_links.g_links {
 /*--contact--*/
 .contact{
 	background:white;
-	padding:6em 23em;
+	padding:6em 0;
 }
 .contact-form input[type="text"] {
 	display: block;
@@ -653,7 +654,7 @@ ul.list {
 	width: 40%;
 	padding: 0;
 	list-style: none;
-	text-align: left;
+	text-align: center;
     padding-left: 150px;
 }
 ul.list h5, ul.list1 h5{
@@ -672,15 +673,14 @@ ul.list1 {
 	width: 40%;
 	list-style: none;
 	text-align: justify;
-    padding-left: 150px;
+    padding-left: 0px;
 }
 a.btn1.contact_btn.btn-1.btn-1d {
 	font-size:2em;
-    padding-left: 150px;
 }
 /*--footer--*/
 .footer{
-	padding:3em 0;
+	padding:3em ;
 	background: black;
 	text-align:center;
 }
@@ -704,29 +704,7 @@ a.btn1.contact_btn.btn-1.btn-1d {
 	text-indent: 100%;
 	background: url(../images/top_move.png) no-repeat 0px 0px;
 }
-/*--responsive design--*/
-@media only screen and (max-width:1366px) {
-.about_left {
-	min-height: 528px;
-}
-.gallery1 {
-	padding: 5em 0 0;
-	min-height: 259px;
-}
-}
-@media only screen and (max-width:1280px) {
-.about_right {
-	padding: 4.9em 0;
-}
-.gallery1 {
-	padding:3.5em 0 0;
-	min-height: 242px;
-}
-}
-@media only screen and (max-width:1024px) {
-.about_left {
-	min-height: 529px;
-}
+
 .btn1 {
 	padding: 15px 50px;
 	font-size:2em;
@@ -754,113 +732,6 @@ a.btn1.gallery_btn.btn-1.btn-1d {
 ul.popup_links.g_links {
 	margin-left: 3em;
 }
-}
-@media only screen and (max-width:800px) {
-	.header{
-		min-height:250px;
-	}
-	.header-top{
-		padding:5px 0;
-	}
-	.top-header{
-		display:block;
-		float:left;
-	}
-
-	.logo:after{
-		display:none;
-	}
-	ul.simple-toggle li.logo {
-		display:none;
-	}
-	nav.nav.clearfix {
-		display: block;
-	}
-	.about_left {
-		min-height: 220px;
-		padding: 5em 0 0;
-	}
-	.about_right {
-		padding: 3em 0;
-	}
-	ul.about_gallery li {
-		width: 33.3333%;
-		float: left;
-	}
-	.testimonial {
-		min-height: 250px;
-		padding:0;
-	}
-	.test_wrap {
-		width: 60%;
-	}
-	.testimonial span.quotes {
-		left: 5em;
-		top:3em;
-	}
-	.testimonial p {
-		font-size: 1em;
-		margin-top: 4em;
-	}
-	.testimonial span.quotes-down {
-		right: 4em;
-		top:8em;
-	}
-	.testimonial h4 {
-		margin-top: 3em;
-	}
-	.team_grid1 {
-		padding: 3em 0;
-	}
-	.btn-1 {
-		border: 5px solid #000;
-		color: #000;
-		font-size:1.5em;
-		padding:10px 30px;
-	}
-	.team_grid2, .team_grid4{
-		min-height: 200px;
-	}
-	.team_grid3 {
-		padding: 2em 1em 0;
-		min-height: 270px;
-	}
-	.team_grid3 h3 {
-		margin-bottom: 0.5em;
-	}
-	.team_grid5 {
-		padding: 3em 1em 0;
-		min-height: 250px;
-	}
-	.team_grid5 p {
-		margin-bottom: 1em;
-	}
-	.twitter {
-		min-height: 200px;
-		padding-top: 1em;
-	}
-	.contact {
-		padding:2em 0 7em;
-	}
-	a.btn1.contact_btn.btn-1.btn-1d {
-		font-size: 1.5em;
-	}
-	.contact_left h4 {
-		margin: 4em 0;
-	}
-	.contact_left {
-		margin-bottom: 4em;
-	}
-
-@media only screen and (max-width:480px) {
-.about_left {
-	min-height: 140px;
-	padding: 4em 0 0;
-}
-.about_text {
-	width: 90%;
-	margin: 0 auto;
-}
 .about_right h1, .team_grid5 h3, .contact_left h4, ul.list h5, ul.list1 h5 {
 	font-size: 1.2em;
 }
@@ -875,6 +746,4 @@ ul.popup_links.g_links {
 .gallery1 {
 	padding: 3.5em 0 0;
 	min-height: 125px;
-}
-}
 }
