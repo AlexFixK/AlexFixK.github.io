@@ -75,12 +75,12 @@ ul.simple-toggle li a:hover { color: deepskyblue;}
     margin-right: 10px;
   }
 .about_left {
-	background: url(../images/about.jpg)no-repeat center top;
-    background-size: cover;
+	background: url(../image/AboutPhoto.jpg)no-repeat center top;
+    background-size: auto;
 	padding: 500px 0 0 0;
 	text-align: center;
-    min-height: 620px;
-    width: 40%;
+    height: 620px;
+    width: 550px;
     position: absolute;
 }
 .btn1 {
