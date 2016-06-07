@@ -181,7 +181,6 @@ ul.simple-toggle li a:hover { color: deepskyblue;}
 	font-size:1.1em;
 	font-weight:700;
 }
-
 ul.social{
 	padding:0;
 	list-style:none;
@@ -248,6 +247,7 @@ ul.social li a i.google:hover{
     align-items: center;
     justify-content: center;
     height: 100%;
+    min-width: 1300px;
 }
 .contact_left{
     align-content: center;
@@ -287,7 +287,6 @@ ul.list1 {
 	list-style: none;
 	text-align: justify;
     padding-left: 0;
-    margin: auto;
 }
 a.btn1.contact_btn.btn-1.btn-1d {
 	font-size:2em;
