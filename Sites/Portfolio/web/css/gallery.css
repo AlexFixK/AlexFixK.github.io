@@ -1,84 +1,68 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family:  Lato, sans-serif;
-    background-color: rgb(246, 249, 249);
-}
-h1 {
-    font-size: 41px;
-    color: rgb(45, 57, 80);
-}
-h3 {
-    font-size: 15px;
-    color: rgb(144, 144, 144);
-    padding-bottom: 5em;
-}
 .photo {
     width: 100%;
     text-align: center;
-    padding: 1.5rem 0;
+    padding: 3.5rem 0;
+    background-color: white;
 }
-.gallery {
-    position: relative;
-    margin: 0 auto;
-    min-width: 360px;
-    max-width: 1240px;
-    width: auto;
-    margin-top: 20px;
+.gallery{
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
-div.image {          /* РЕЗИНОВЫЙ МАКЕТ! */
-    text-align: center;
-    display: inline-block;
-    position: relative;
-    margin-bottom: 1.0%;
-    margin-right: 1.0%;
-}
-.mask {
-    position: absolute;
-    top:0;
-    left: 0;
-    opacity: 0;
-    border: black;
-}
-.mask:hover {
-    opacity: 0.10;
-    background-color: rgb(255, 255, 255);
+.gallery a img{
+    /* округления старт */
 
-}
+    -webkit-border-radius: 25px;
+    -moz-border-radius:  25px;
+    border-radius:  25px;
+    /* округления конец */
 
-div.visible img, div.mask {
-    width: 360px;
-    height: 240px;
-    border-radius: 3px;
-}
+    /* transition старт */
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transition: all 1.0s ease;
+    /* transition конец */
 
-div.hidden, div.hidden>img {
-    display: block;
-    position: absolute;
-    left:0;
-    top:0;
-    z-index:3;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    width: 100%;
-    margin: 0;
+    /* Тень старт */
+    -webkit-box-shadow: 0px 2px 4px 1px #DFDFDF;
+    -moz-box-shadow: 0px 2px 4px 1px #DFDFDF;
+    box-shadow: 0px 2px 4px 1px #DFDFDF;
+    /* Тень конец */
+
+    /* Прозрачнсоть старт */
+    -moz-opacity: 0.70;
+    opacity: 0.70;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=70);
+    /* Прозрачнсоть конец */
+
+    margin-right:5px;     /* Отступ справа */
+    padding:5px; /* Внутренние отступы */
+    display:inline-block; /* отображение */
+    height:150px; /* Высота */
 }
-div.hidden>img {
-    border: 2px solid grey;
+.gallery a img:hover{
+    -moz-opacity: 1;
+    opacity: 1;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=100);
 }
-.close {
-    background: #25a5f6 50% 50% no-repeat;
-    position:absolute;
-    z-index: 4;
-    right: 10px;
-    top: -16px;
-    border: none;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    transition: all .4s ease-in;
+.gallery a:focus img{
+    position: relative;  /* Позиционирование */
+    height:600px; /* Высота */
+    cursor: pointer;    /* Вид курсора */
+
+    /* transition старт */
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transition: all 1.0s ease;
+    /* transition конец */
+
+    /* Тень старт */
+    -webkit-box-shadow: 0px 4px 4px 1px #DFDFDF;
+    -moz-box-shadow: 0px 4px 4px 1px #DFDFDF;
+    box-shadow: 0px 4px 4px 1px #DFDFDF;
+    /* Тень конец */
 }
-.close:hover {
-    background: #f80a07 50% 50% no-repeat;
+.gallery a{
+    outline:0; border:0;
 }
