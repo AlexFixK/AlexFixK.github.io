@@ -105,7 +105,7 @@ ul.simple-toggle li a:hover { color: deepskyblue;}
 	transition: all 0.3s;
 }
 .btn-1 {
-	border:10px solid #000;
+	border:10px solid #ff99cc;
 	color:#000;
 	font-size:2.5em;
 }
@@ -120,12 +120,12 @@ ul.simple-toggle li a:hover { color: deepskyblue;}
 .btn-1d {
 	overflow: hidden;
 }
-.btn-1d:after {
+-.btn-1d:after {
 	width: 0;
 	height: 103%;
 	top: 50%;
 	left: 50%;
-	background: black;
+	background: #6d3e71;
 	opacity: 80;
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	-moz-transform: translateX(-50%) translateY(-50%);
@@ -294,7 +294,7 @@ ul.list1 {
 }
 a.btn1.contact_btn.btn-1.btn-1d {
 	font-size:2em;
-    margin-left: -120px;
+    margin-left: -15%;
 
 }
 /*--footer--*/
