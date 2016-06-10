@@ -15,9 +15,16 @@
         <script type="text/javascript" src="web/js/jquery-1.11.1.min.js"></script>
         <!--//requred-js-files-->
         <script src="web/js/hover_pack.js"></script>
-        
+        <script type="text/javascript">
+            jQuery(document).ready(function($) {
+                $(".scroll").click(function(event){
+                    event.preventDefault();
+                    $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+                });
+            });
+        </script>
         <script type="text/javascript" src="web/js/move-top.js"></script>
-        <link href="web/css/animate.css" rel="stylesheet" type="text/css" media="all">
+
         <script src="web/js/wow.min.js"></script>
         <script>
             new WOW().init();

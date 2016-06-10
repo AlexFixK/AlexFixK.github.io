@@ -72,6 +72,9 @@ ul.simple-toggle li a:hover { color: deepskyblue;}
 	margin-top:20px;
     margin-right: 10px;
   }
+.about_left{
+    min-width: 1300px;
+}
 .about_left {
 	background: url(../image/AboutPhoto.jpg)no-repeat center top;
     background-size: auto;
