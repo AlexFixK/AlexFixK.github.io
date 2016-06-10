@@ -186,7 +186,7 @@ ul.social{
 	list-style:none;
 	margin-top:4em;
     margin-left: 0;
-	text-align: center;
+	text-align: justify;
 }
 ul.social li {
 	display: inline-block;
@@ -253,7 +253,6 @@ ul.social li a i.google:hover{
     align-content: center;
 	text-align:center;
     margin-left: 350px;
-    width: 100%;
 }
 .contact_left h4{
 	color:#000;
