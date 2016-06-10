@@ -108,6 +108,9 @@ ul.simple-toggle li a:hover { color: deepskyblue;}
 	position: relative;
 	z-index: 1;
 }
+.list{
+    margin-left: 60px;
+}
 .btn-1d:hover:after {
 	width: 95%;
 	opacity: 1;
@@ -164,7 +167,7 @@ ul.simple-toggle li a:hover { color: deepskyblue;}
 .about_right p{
 	color:#000;
 	line-height:1.8em;
-	text-align: left;
+	text-align: center;
 }
 /*-----------------------------------------------------------------------------------*/
 /*	Animation effects
@@ -185,8 +188,8 @@ ul.social{
 	padding:0;
 	list-style:none;
 	margin-top:4em;
-    margin-left: 0;
 	text-align: justify;
+    margin-left: 110px;
 }
 ul.social li {
 	display: inline-block;
@@ -207,17 +210,17 @@ ul.social li a i.fb {
 ul.social li a i.fb:hover{
 	background-position: -6px -106px;
 }
-ul.social li a i.tw {
+ul.social li a i.vk {
 	background-position: -59px -56px;
 }
-ul.social li a i.tw:hover{
-	background-position: -60px -108px;
+ul.social li a i.vk:hover{
+	background-position: -59px -104px;
 }
-ul.social li a i.tumb {
+ul.social li a i.youtube {
 	background-position: -123px -54px;
 }
-ul.social li a i.tumb:hover{
-	background-position: -125px -108px;
+ul.social li a i.youtube:hover{
+	background-position: -123px -103px;
 }
 ul.social li a i.linked {
 	background-position: -189px -53px;
@@ -243,16 +246,14 @@ ul.social li a i.google:hover{
 	padding:6em 0;
     align-content: center;
     text-align:center;
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    min-width: 1300px;
 }
 .contact_left{
     align-content: center;
 	text-align:center;
-    margin-left: 350px;
+    margin-left: 35%;
 }
 .contact_left h4{
 	color:#000;
