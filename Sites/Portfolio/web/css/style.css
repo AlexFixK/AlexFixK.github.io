@@ -199,6 +199,7 @@ ul.social li {
 }
 ul.social li:first-child {
 	margin-left: 120px;
+
 }
 ul.social li a i {
 	width: 35px;
@@ -339,6 +340,7 @@ ul.social {
 a.btn1.gallery_btn.btn-1.btn-1d {
 	padding: 8px 30px;
 	font-size: 1.2em;
+    margin-left: -80px;
 }
 ul.popup_links.g_links {
 	margin-left: 3em;
