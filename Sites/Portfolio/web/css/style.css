@@ -198,7 +198,7 @@ ul.social li {
 	margin-right:2em;
 }
 ul.social li:first-child {
-	margin-left: 0;
+	margin-left: 120px;
 }
 ul.social li a i {
 	width: 35px;
@@ -268,11 +268,13 @@ ul.social li a i.google:hover{
 .contact_left a{
 	position: relative;
 	z-index: 1;
+    margin-left: 10px;
 }
 ul.list {
 	padding: 0;
 	list-style: none;
 	text-align: left;
+    margin-left: 60px;
 }
 ul.list h5, ul.list1 h5{
 	color:#000;
