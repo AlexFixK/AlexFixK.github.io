@@ -78,8 +78,8 @@ ul.simple-toggle li a:hover { color: deepskyblue;}
 	padding: 500px 0 0 0;
 	text-align: center;
     height: 620px;
+    width: 550px;
     position: absolute;
-    min-width: 1300px;
 }
 .btn1 {
 	border: none;
@@ -193,7 +193,7 @@ ul.social li {
 	margin-right:2em;
 }
 ul.social li:first-child {
-	margin-left:;
+	margin-left: 0;
 }
 ul.social li a i {
 	width: 35px;
@@ -238,6 +238,10 @@ ul.social li a i.google:hover{
 	background-position:-14px -215px;
 }
 /*--contact--*/
+.container{
+    width: 1300px;
+    align-content: center;
+}
 .contact{
 	background:white;
 	padding:6em 0;
