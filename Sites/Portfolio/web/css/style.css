@@ -199,7 +199,7 @@ ul.social li {
 	margin-right:2em;
 }
 ul.social li:first-child {
-	margin-left: 120px;
+	margin-left: 180px;
 
 }
 ul.social li a i {
@@ -245,8 +245,11 @@ ul.social li a i.google:hover{
 	background-position:-14px -215px;
 }
 /*--contact--*/
+
 .contact{
-	background:white;
+ background: url("../image/contact.jpg") no-repeat center top;
+    width: auto;
+
 	padding:6em 0;
     align-content: center;
     text-align:center;
@@ -273,7 +276,7 @@ ul.list {
 	padding: 0;
 	list-style: none;
 	text-align: left;
-    margin-left: 60px;
+    margin-left: 120px;
 }
 ul.list h5, ul.list1 h5{
 	color:#000;
@@ -295,7 +298,6 @@ ul.list1 {
 }
 a.btn1.contact_btn.btn-1.btn-1d {
 	font-size:2em;
-    margin-left: -15%;
 
 }
 /*--footer--*/
