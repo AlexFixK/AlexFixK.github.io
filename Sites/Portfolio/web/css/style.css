@@ -254,11 +254,11 @@ ul.social li a i.google:hover{
     justify-content: center;
     height: 100%;
     min-width: 1300px;
+    margin-left: 370px;
 }
 .contact_left{
     align-content: center;
 	text-align:center;
-    margin-left: 350px;
 }
 .contact_left h4{
 	color:#000;
@@ -340,7 +340,6 @@ ul.social {
 a.btn1.gallery_btn.btn-1.btn-1d {
 	padding: 8px 30px;
 	font-size: 1.2em;
-    margin-left: -80px;
 }
 ul.popup_links.g_links {
 	margin-left: 3em;
