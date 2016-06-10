@@ -251,14 +251,11 @@ ul.social li a i.google:hover{
     text-align:center;
     display: inline-block;
     align-items: center;
-    justify-content: center;
     height: 100%;
     min-width: 1300px;
-    margin-left: 370px;
 }
 .contact_left{
-    align-content: center;
-	text-align:center;
+    margin-left: 370px;
 }
 .contact_left h4{
 	color:#000;
