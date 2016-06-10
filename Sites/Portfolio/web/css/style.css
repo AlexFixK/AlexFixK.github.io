@@ -79,7 +79,9 @@ ul.simple-toggle li a:hover { color: deepskyblue;}
 	text-align: center;
     height: 620px;
     width: 550px;
+    min-width: 550px;
     position: absolute;
+    margin-left: 0;
 }
 .btn1 {
 	border: none;
@@ -144,8 +146,8 @@ ul.simple-toggle li a:hover { color: deepskyblue;}
 	padding:2.35em 0;
 	text-align:center;
     min-height: 620px;
-    width: 60%;
-    margin-left: 40%;
+    width: auto;
+    margin-left: 550px;
     font-family: 'Merriweather', serif;
     font-size: 40px;
     text-decoration: dashed;
@@ -238,10 +240,6 @@ ul.social li a i.google:hover{
 	background-position:-14px -215px;
 }
 /*--contact--*/
-.container{
-    width: 1300px;
-    align-content: center;
-}
 .contact{
 	background:white;
 	padding:6em 0;
