@@ -1,3 +1,4 @@
+
 h4, h5, h6,
 h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
@@ -31,7 +32,7 @@ body a{
     font-size: 50px;
     font-weight: 600;
     font-style: italic;
-    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    -text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
 }
 .top-header{
 	display:none;
@@ -91,7 +92,7 @@ ul.simple-toggle li a:hover { color: deepskyblue;}
 	font-family: inherit;
 	font-size: inherit;
 	color: inherit;
-	background: none;
+	background: rgba(140, 135, 124, 0.3);;
 	cursor: pointer;
 	padding: 20px 150px;
 	display: inline-block;
@@ -105,9 +106,9 @@ ul.simple-toggle li a:hover { color: deepskyblue;}
 	transition: all 0.3s;
 }
 .btn-1 {
-	border:10px solid #ff99cc;
 	color:#000;
 	font-size:2.5em;
+    background-color: rgba(140, 135, 124, 0.3);
 }
 .about_left a {
 	position: relative;
@@ -266,7 +267,7 @@ ul.social li a i.google:hover{
 .contact_left a{
 	position: relative;
 	z-index: 1;
-    margin-left: 10px;
+    align-content: center;
 }
 ul.list {
 	padding: 0;
