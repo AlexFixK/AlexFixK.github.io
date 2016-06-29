@@ -40,10 +40,6 @@ body .header .menu {
     text-align: center;
     padding: 30px 0 0;
 }
-.menu__list ul {
-    display: inline-block;
-    text-align: center;
-}
 .menu__list a {
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
     color: #a8a8a8; /* Цвет ссылок */
@@ -566,7 +562,7 @@ body .testimonial {
     content: '';
     display:block;
     position: absolute;
-    margin-left: -60px ;
+    margin-left: -55px ;
 }
 
 .contact__email:before {
@@ -594,7 +590,7 @@ body .testimonial {
 }
 .contacts__map {
     width: 50%;
-    height: 346px;
+    height: 360px;
     position: absolute;
     right: 0;
     top: 0;

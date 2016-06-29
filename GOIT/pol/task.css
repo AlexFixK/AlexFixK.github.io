@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: "Book Antiqua";
+}
+h1 {
+    font-size: 60px;
+    color: seashell;
+    font-family: 'Indie Flower', sans-serif;
+    text-align: center;
+    width: auto;
+}
+h3 {
+    font-size: 15px;
+    color: rgb(144, 144, 144);
+    padding-bottom: 5em;
+}
+.photo {
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+.gallery {
+    position: relative;
+    margin: 0 auto;
+    min-width: 1140px;
+    max-width: 1140px;
+    width: auto;
+}
+div.image {          /* РЕЗИНОВЫЙ МАКЕТ! */
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-bottom: .1%;
+    margin-right: .1%;
+}
+.mask {
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.9s ease-out;
+    color: black;
+    font-weight: bold;
+    font-size: 55px;
+}
+.mask:hover {
+    opacity: .90;
+    top:0;
+    left: 0;
+    background-color: black;
+    -border-radius: inherit;
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+    border: 1px solid snow;
+    border-radius: .3rem;
+}
+-button {
+    border: 1px solid #fff;
+    border-radius: .3rem;
+    padding: .6rem .75rem;
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    background-color: #25a5f6;
+}
+-.button:hover {
+    background-color: #1d90ff;
+}
+-.link {
+    left: 36%;
+}
+-.zoom {
+    right: 36%;
+}
+div.visible img, div.mask {
+    width: 360px;
+    height: 240px;
+    border-radius: 3px;
+}
